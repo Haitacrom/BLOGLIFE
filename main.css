@@ -1,0 +1,431 @@
+body {
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+/* navbar */
+.icon-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  height: 39px;
+}
+
+.icon-bar-a {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 20px;
+}
+.icon-bar .icon-bar-a:hover {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+/* header */
+.header {
+  text-align: center;
+  padding: 48px 16px;
+  background: #ffffff;
+  color: #000000;
+}
+.header-h1 {
+  margin: 10px 0px;
+  font-size: 72px;
+}
+.header-h6 {
+  margin: 10px 0px;
+  font-size: 25px;
+}
+.header-span {
+  background: #000000;
+  padding: 0px 8px;
+  color: #ffffff;
+}
+/* img-FASHION BLOG */
+.img-FASHION {
+  position: relative;
+  background: #f1f1f1;
+}
+.img-FASHION img {
+  width: 100%;
+  object-fit: cover;
+}
+.img-FASHION-div {
+  padding: 12px 24px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+}
+.img-FASHION-div h3 {
+  font-size: 36px;
+  margin: 10px 0px;
+  color: #ffffff;
+}
+.img-FASHION-div h1 {
+  font-size: 64px;
+  color: #ffffff;
+}
+.img-FASHION-div button {
+  font-size: 18px;
+  margin: 10px 0px;
+  padding: 12px 24px;
+  background: #ffffff;
+  border: none;
+  opacity: 0.6;
+}
+.img-FASHION-div button:hover {
+  color: #000;
+  background-color: #ccc;
+  opacity: 1;
+}
+/* container-kho */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0px;
+  background: #f1f1f1;
+}
+/* container-left */
+.container-left {
+  width: 60%;
+}
+.container-right {
+  width: 30%;
+}
+.container-left-TITLEHEADING-1 {
+  padding: 12px 24px;
+  background: #ffffff;
+  text-align: center;
+  color: #000000;
+  margin: 30px 0px;
+}
+.container-left-TITLEHEADING-1 h1 {
+  margin: 10px 0px;
+  font-size: 34px;
+}
+.container-left-TITLEHEADING-1 h3 {
+  margin: 10px 0px;
+  font-size: 28px;
+}
+.container-left-TITLEHEADING-1 h3 span {
+  opacity: 0.6;
+}
+.container-left-TITLEHEADING-1 img {
+  width: 100%;
+  padding: 16px 0px;
+}
+.container-left-TITLEHEADING-1 p {
+  text-align: left;
+  font-size: 25px;
+  margin: 15px 0px;
+}
+.container-left-TITLEHEADING-1btn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.btn-left {
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  cursor: pointer;
+  background: #ffffff;
+  font-size: 18px;
+}
+.btn-left i {
+  padding: 0px 5px 0px 0px;
+}
+.btn-right {
+  padding: 8px 16px;
+  cursor: pointer;
+  background: #000000;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+}
+.btn-right span {
+  background: #ffffff;
+  color: #000000;
+  padding: 0px 8px;
+  margin-left: 10px;
+}
+.btn-left:hover {
+  background-color: #ccc;
+}
+
+.btn-right:hover {
+  color: #000;
+  background-color: #ccc;
+}
+.container-left-TITLEHEADING-1-comment {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.container-left-TITLEHEADING-1-comment img {
+  width: 150px;
+  height: 180px;
+}
+.container-left-TITLEHEADING-1-comment h3 {
+  text-align: left;
+  margin: 10px 0px;
+}
+.container-left-TITLEHEADING-1-comment h3 span {
+  font-size: 20px;
+}
+.container-left-TITLEHEADING-1-comment h4 {
+  text-align: left;
+  margin: 15px 0px;
+  font-size: 20px;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+/* container-right*/
+.container-right-phan-1 img {
+  width: 100%;
+  object-fit: cover;
+  display: block; /* Ngăn chặn khoảng cách do line-height */
+  margin-top: 30px;
+}
+.container-right-phan-1-text {
+  padding: 0.15px 16px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.container-right-phan-1-text h2 {
+  margin: 10px 0px;
+  font-size: 30px;
+  color: #fff;
+}
+.container-right-phan-1-text h6 {
+  margin: 15px 0px;
+  font-size: 20px;
+  color: #fff;
+}
+.magin-bot {
+  margin-bottom: 50px;
+}
+.Popular-Posts {
+  background: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+.Popular-Posts h1 {
+  font-size: 35px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+.container-left-comment {
+  display: flex;
+  height: 90px;
+  gap: 16px;
+  align-items: center;
+  padding: 16px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.container-left-comment img {
+  width: 80px;
+}
+.container-left-comment h3 {
+  text-align: left;
+  font-size: 25px;
+}
+.container-left-comment h4 {
+  text-align: left;
+  font-size: 20px;
+}
+.container-left-comment:hover {
+  background-color: #ccc;
+}
+.Advertise {
+  background: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+.Advertise h1 {
+  font-size: 35px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+.Advertise-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background: #ffffff;
+}
+.Advertise-text-h3 {
+  width: 520px;
+  height: 260px;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Tags {
+  background: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+.Tags h1 {
+  font-size: 35px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+.Tags-text {
+  height: 250px;
+  background: #ffffff;
+  position: relative;
+}
+.Tags-text-span {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.Tags-text-span span {
+  background: #f1f1f1;
+  padding: 0px 8px;
+  font-size: 25px;
+}
+.magin-bot-2 {
+  margin-bottom: 40px;
+}
+.Tags-text-span-fisrt {
+  font-size: 30px !important;
+  background: #000000 !important;
+  color: #ffffff;
+}
+.Inspiration {
+  background: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+.Inspiration h1 {
+  font-size: 35px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+.Inspiration-img {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép các hình ảnh gói lại để tạo hàng */
+  gap: 20px; /* Khoảng cách giữa các hình ảnh */
+  padding: 20px; /* Khoảng cách giữa hình ảnh và các cạnh của container */
+  box-sizing: border-box; /* Đảm bảo padding được tính trong kích thước của container */
+  background: #ffffff;
+}
+.box {
+  width: calc(
+    50% - 10px
+  ); /* Chiếm 50% chiều rộng của container trừ khoảng cách */
+  height: 50%; /* Chiếm 50% chiều cao của container */
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+}
+.Follow-Me {
+  background: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+.Follow-Me h1 {
+  font-size: 35px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+.Follow-Me-icon-size {
+  font-size: 35px;
+  padding: 20px 20px;
+  background: #ffffff;
+}
+.Follow-Me-icon-size i:hover {
+  opacity: 0.5;
+}
+.Subscribe {
+  background: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+.Subscribe h1 {
+  font-size: 35px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+.Subscribe-text {
+  background: #ffffff;
+  padding: 10px 20px;
+}
+.Subscribe-text p {
+  font-size: 25px;
+}
+.Subscribe-text input {
+  font-size: 25px;
+  padding: 15px 0px 15px 10px;
+  width: 510px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.Subscribe-text button {
+  font-size: 25px;
+  padding: 15px 0px;
+  width: 522px;
+  margin-bottom: 10px;
+  border: none;
+  color: #fff !important;
+  background-color: #f44336 !important;
+}
+.Subscribe-text button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+.footer-container {
+  color: #fff;
+  background-color: #616161;
+  padding: 32px;
+}
+.footer-div {
+  margin-left: 30px;
+}
+.footer-container button {
+  font-size: 25px;
+  background: #000000;
+  color: #fff;
+  padding: 20px;
+  border: none;
+}
+.footer-container button i {
+  padding-right: 20px;
+  padding-left: 15px;
+}
+.footer-container button a {
+  text-decoration: none; /* Loại bỏ gạch chân */
+  color: #fff;
+}
+
+.footer-container button:hover a {
+  color: #000 !important;
+}
+.footer-container button:hover {
+  color: #000;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.footer-container p {
+  font-size: 25px;
+}
+.footer-container p a {
+  color: #fff;
+}
